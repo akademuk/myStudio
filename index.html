@@ -17,7 +17,7 @@
   
  
  
-  <link href="css/style.css" rel="preload">
+  <link href="css/style.css" rel="stylesheet" >
 </head>
 
 <body class="front">
@@ -34,7 +34,7 @@
             <div class="my_search_popup">
               <form class="clearfix">
                 <input type="text" class="form-control" placeholder="Search...">
-                <a href="#" class=""><i class="fa fa-search"></i></a>
+                <a href="#" aria-label="Search..."><i class="fa fa-search"></i></a>
               </form>
             </div>
           </div>
@@ -45,17 +45,17 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="nav navbar-nav sf-menu clearfix">
-                <li class="nav-item"><a href="index.html" class="active nav-link">Головна</a></li>
-                <li class="nav-item"><a href="about.html" class="nav-link">Про нас</a></li>
+                <li class="nav-item"><a href="index.html" aria-label="Головна" class="active nav-link">Головна</a></li>
+                <li class="nav-item"><a href="about.html" aria-label="Про нас" class="nav-link">Про нас</a></li>
                 <li class="nav-item sub-menu">
-                  <a href="portfolio.html" class="nav-link">Портфоліо</a>
+                  <a href="portfolio.html"  aria-label="Портфоліо" class="nav-link">Портфоліо</a>
                   <!-- <i class="fa fa-caret-down" aria-hidden="true"></i> -->
                 </li>
                 <li class="nav-item sub-menu">
-                  <a href="#" class="nav-link">Блог</a>
+                  <a href="blog.html" aria-label="Блог" class="nav-link">Блог</a>
                   <!-- <i class="fa fa-caret-down" aria-hidden="true"></i> -->
                 </li>
-                <li class="nav-item"><a href="contact.html" class="nav-link">Контакти</a></li>
+                <li class="nav-item"><a href="contact.html"  aria-label="Контакти" class="nav-link">Контакти</a></li>
               </ul>
             </div>
           </nav>
@@ -76,7 +76,7 @@
                   <div class="txt1">Ласкаво просимо в наш</div>
                   <div class="txt2">Creative<br>UPGRADE STUDIO</div>
                   <div class="txt3">ЦЕ ЕФЕКТИВНІ САЙТИ</div>
-                  <div class="link1"><a href="#" class="btn1">дивіться портфоліо</a></div>
+                  <div class="link1"><a href="portfolio.html" aria-label="дивіться портфоліо" class="btn1">дивіться портфоліо</a></div>
                 </div>
               </div>
             </li>
@@ -90,7 +90,7 @@
                   <div class="txt1">Ласкаво просимо в наш</div>
                   <div class="txt2">Creative<br>UPGRADE STUDIO</div>
                   <div class="txt3">ЦЕ ЕФЕКТИВНІ ДИЗАЙНИ.</div>
-                  <div class="link1"><a href="#" class="btn1">дивіться портфоліо</a></div>
+                  <div class="link1"><a href="portfolio.html" aria-label="дивіться портфоліо" class="btn1">дивіться портфоліо</a></div>
                 </div>
               </div>
             </li>
@@ -104,18 +104,18 @@
                   <div class="txt1">Ласкаво просимо в наш</div>
                   <div class="txt2">Creative<br>UPGRADE STUDIO</div>
                   <div class="txt3">ЦЕ ЕФЕКТИВНІ ІНТЕРФЕЙСИ</div>
-                  <div class="link1"><a href="#" class="btn1">дивіться портфоліо</a></div>
+                  <div class="link1"><a href="portfolio.html" aria-label="дивіться портфоліо" class="btn1">дивіться портфоліо</a></div>
                 </div>
               </div>
             </li>
           </ul>
           <nav class="slides-navigation">
-            <a href="#" class="prev">prev</a><span>|</span><a href="#" class="next">next</a>
+            <a href="#" aria-label="попередня" class="prev">prev</a><span>|</span><a href="#" aria-label="далі" class="next">next</a>
           </nav>
         </div>
       </div>
       <div class="mouse">
-        <a href="#welcome" class="scroll-to">
+        <a href="#welcome" aria-label="слідкуйте за нами" class="scroll-to">
           <picture class="img-responsive">
             <source type="image/webp" srcset="images/mouse.webp">
             <img width="24" height="24" src="images/mouse.png" alt="mouse">
@@ -125,10 +125,10 @@
       <div class="left-panel">
         <div class="social-left-txt">слідкуйте за нами</div>
         <ul class="social-left clearfix">
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-          <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+          <li><a href="#" aria-label="facebook"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#" aria-label="twitter"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#" aria-label="google"><i class="fa fa-google-plus"></i></a></li>
+          <li><a href="#" aria-label="pinterest"><i class="fa fa-pinterest"></i></a></li>
         </ul>
       </div>
     </div>
@@ -340,11 +340,11 @@
               </div>
               <div id="options" class="clearfix">
                 <ul id="filters" class="option-set clearfix" data-option-key="filter">
-                  <li><a href="#filter" data-option-value="*" class="selected">Всі</a></li>
-                  <li><a href="#filter" data-option-value=".isotope-filter1">розробка</a></li>
-                  <li><a href="#filter" data-option-value=".isotope-filter2">дізайн</a></li>
-                  <li><a href="#filter" data-option-value=".isotope-filter3">SEO</a></li>
-                  <li><a href="#filter" data-option-value=".isotope-filter4">Технічна підтримка</a></li>
+                  <li><a href="#filter" aria-label="Всі" data-option-value="*" class="selected">Всі</a></li>
+                  <li><a href="#filter" aria-label="розробка" data-option-value=".isotope-filter1">розробка</a></li>
+                  <li><a href="#filter" aria-label="дізайн" data-option-value=".isotope-filter2">дізайн</a></li>
+                  <li><a href="#filter" aria-label="SEO" data-option-value=".isotope-filter3">SEO</a></li>
+                  <li><a href="#filter" aria-label="Технічна підтримка" data-option-value=".isotope-filter4">Технічна підтримка</a></li>
                 </ul>
               </div><!-- #options -->
             </div>
@@ -463,7 +463,7 @@
                     <img width="31" height="31" src="images/ic3.png" alt="Email">
                   </picture>
                 </figure>
-                <div class="txt1">Email: <a href="#">akademuk24@gmail.com</a></div>
+                <div class="txt1">Email: <a href="#" aria-label="akademuk24@gmail.com">akademuk24@gmail.com</a></div>
               </div>
             </div>
           </div>
@@ -475,7 +475,7 @@
           <div class="row align-items-center">
             <div class="col-md-2">
               <div class="partner1">
-                <a href="#">
+                <a href="#" aria-label="партнери">
                   <picture class="img-fluid">
                     <source type="image/webp" srcset="images/partner01.webp">
                     <img width="136" height="46" src="images/partner01.png" alt="google">
@@ -485,7 +485,7 @@
             </div>
             <div class="col-md-2">
               <div class="partner1">
-                <a href="#">
+                <a href="#"  aria-label="партнери">
                   <picture class="img-fluid">
                     <source type="image/webp" srcset="images/partner02.webp">
                     <img width="136" height="46" src="images/partner02.png" alt="wordpress">
@@ -495,7 +495,7 @@
             </div>
             <div class="col-md-2">
               <div class="partner1">
-                <a href="#">
+                <a href="#"  aria-label="партнери">
                   <picture class="img-fluid">
                     <source type="image/webp" srcset="images/partner03.webp">
                     <img width="136" height="46" src="images/partner03.png" alt="sass">
@@ -505,7 +505,7 @@
             </div>
             <div class="col-md-2">
               <div class="partner1">
-                <a href="#">
+                <a href="#"  aria-label="партнери">
                   <picture class="img-fluid">
                     <source type="image/webp" srcset="images/partner04.webp">
                     <img width="136" height="46" src="images/partner04.png" alt="gridgum">
@@ -515,7 +515,7 @@
             </div>
             <div class="col-md-2">
               <div class="partner1">
-                <a href="#">
+                <a href="#"  aria-label="партнери">
                   <picture class="img-fluid">
                     <source type="image/webp" srcset="images/partner05.webp">
                     <img width="136" height="46" src="images/partner05.png" alt="adobe">
@@ -525,7 +525,7 @@
             </div>
             <div class="col-md-2">
               <div class="partner1">
-                <a href="#">
+                <a href="#"  aria-label="партнери">
                   <picture class="img-fluid">
                     <source type="image/webp" srcset="images/partner06.webp">
                     <img width="136" height="46" src="images/partner06.png" alt="jquery">
@@ -541,7 +541,7 @@
           <div class="container">
             <div class="bot1 clearfix">
               <div class="logo2_wrapper">
-                <a href="index.html" class="logo2">
+                <a href="index.html" aria-label="головна" class="logo2">
                   <picture class="img-fluid">
                     <source type="image/webp" srcset="images/logo2.webp">
                     <img width="170" height="131" src="images/logo2.png" alt="онлайн-студія">
@@ -550,10 +550,10 @@
               </div>
               <div class="social-footer-wrapper">
                 <ul class="social-footer clearfix">
-                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                  <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                  <li><a href="#" aria-label="facebook"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#" aria-label="twitter"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#" aria-label="google"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#" aria-label="pinterest"><i class="fa fa-pinterest"></i></a></li>
                 </ul>
               </div>
               <p>
@@ -579,10 +579,10 @@
                     <b>A:</b> Україна
                   </div>
                   <div class="contact1">
-                    <b>P:</b> <a href="#">(063) 637 08 90</a>
+                    <b>P:</b> <a href="#" aria-label="(063) 637 08 90">(063) 637 08 90</a>
                   </div>
                   <div class="contact1">
-                    <b>E:</b> <a href="#">akademuk24@gmail.com</a>
+                    <b>E:</b> <a href="#" aria-label="akademuk24@gmail.com">akademuk24@gmail.com</a>
                   </div>
                   <!-- <div class="contact1">
                     <b>E:</b> <a href="#">akademuk24@gmail.com</a>
@@ -593,7 +593,7 @@
                     пости
                   </div>
                   <div class="recent-posts clearfix">
-                    <a href="#" class="clearfix">
+                    <a href="#" aria-label="пост" class="clearfix">
                       <figure>
                         <picture class="img-fluid">
                           <source type="image/webp" srcset="images/recent-posts1.webp">
@@ -607,7 +607,7 @@
                     </a>
                   </div>
                   <div class="recent-posts clearfix">
-                    <a href="#" class="clearfix">
+                    <a href="#" aria-label="пост" class="clearfix">
                       <figure>
                         <picture class="img-fluid">
                           <source type="image/webp" srcset="images/recent-posts2.webp">
@@ -627,7 +627,7 @@
                   </div>
                   <ul class="best1 clearfix">
                     <li>
-                      <a href="#">
+                      <a href="#" aria-label="пост">
                         <picture class="img-fluid">
                           <source type="image/webp" srcset="images/recent-works1.webp">
                           <img width="70" height="70" src="images/recent-works1.jpg" alt="пост">
@@ -635,7 +635,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="#" aria-label="пост">
                         <picture class="img-fluid">
                           <source type="image/webp" srcset="images/recent-works2.webp">
                           <img width="70" height="70" src="images/recent-works2.jpg" alt="пост">
@@ -643,7 +643,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="#" aria-label="пост">
                         <picture class="img-fluid">
                           <source type="image/webp" srcset="images/recent-works3.webp">
                           <img width="70" height="70" src="images/recent-works3.jpg" alt="пост">
@@ -651,7 +651,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="#" aria-label="пост">
                         <picture class="img-fluid">
                           <source type="image/webp" srcset="images/recent-works4.webp">
                           <img width="70" height="70" src="images/recent-works4.jpg" alt="пост">
@@ -659,7 +659,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="#" aria-label="пост">
                         <picture class="img-fluid">
                           <source type="image/webp" srcset="images/recent-works5.webp">
                           <img width="70" height="70" src="images/recent-works5.jpg" alt="пост">
@@ -667,7 +667,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="#" aria-label="пост">
                         <picture class="img-fluid">
                           <source type="image/webp" srcset="images/recent-works6.webp">
                           <img width="70" height="70" src="images/recent-works6.jpg" alt="пост">
@@ -675,7 +675,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="#" aria-label="пост">
                         <picture class="img-fluid">
                           <source type="image/webp" srcset="images/recent-works7.webp">
                           <img width="70" height="70" src="images/recent-works7.jpg" alt="пост">
@@ -692,12 +692,12 @@
           <div class="container">
             <div class="bot3 clearfix">
               <ul class="menu-bot">
-                <li><a href="#">Головна</a></li>
-                <li><a href="#">Про нас</a></li>
+                <li><a href="#" aria-label="Головна">Головна</a></li>
+                <li><a href="#" aria-label="Про нас">Про нас</a></li>
                 <!-- <li><a href="#">Services</a></li> -->
-                <li><a href="#">Портфоліо</a></li>
-                <li><a href="#">Блог</a></li>
-                <li><a href="#">Контакти</a></li>
+                <li><a href="#" aria-label="Портфоліо">Портфоліо</a></li>
+                <li><a href="#" aria-label="Блог">Блог</a></li>
+                <li><a href="#" aria-label="Контакти">Контакти</a></li>
               </ul>
               <div class="copyrights">Copyright @2018. All rights Revierves Inc.</div>
             </div>
