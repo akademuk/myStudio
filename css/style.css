@@ -16,7 +16,9 @@ a[href^="tel:"] {
   color: inherit;
   text-decoration: none;
 }
-
+a {
+  text-decoration: none !important;
+}
 ::selection {
   background: #f7b901 !important;
   color: #fff
@@ -31,6 +33,9 @@ a {
   color: #f7b901;
   text-decoration: underline;
   outline: none
+}
+.img-fluid img {
+  object-fit: contain;
 }
 
 a:hover {
@@ -433,8 +438,11 @@ header {
   color: #fff;
   font-family: 'Oswald';
   padding-bottom: 10px;
-}
+} 
 
+.bot1-wrapper {
+  margin-bottom: 50px;
+}
 .features1 .txt2 {
   color: #bbbbbb;
   font-size: 14px;
