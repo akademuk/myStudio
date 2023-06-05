@@ -388,6 +388,10 @@ header {
   background: url(../images/parallax1.jpg) center center no-repeat #000;
   background-size: cover;
 }
+.webp #services {
+  background: url(../images/parallax1.jpg.webp) center center no-repeat #000;
+  background-size: cover;
+}
 
 .features {
   padding-top: 30px;
